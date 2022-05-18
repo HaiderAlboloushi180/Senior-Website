@@ -1,0 +1,72 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgb(0, 74, 173);
+}
+
+header img {
+  width: 120px;
+  margin: -30px;
+}
+
+#links {
+  display: none;
+  flex-direction: column;
+  padding-top: 5px;
+  padding-right: 25px;
+  position: absolute;
+  right: 0;
+}
+
+#links a {
+  text-decoration: none;
+  text-align: end;
+  margin-top: 5px;
+}
+
+#links a:hover {
+  opacity: 0.7;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+header a.icon {
+  display: block;
+  margin-right: 5px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.753);
+}
+
+.contact-us-footer {
+  padding-right: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+footer .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+footer .fa:hover {
+  opacity: 0.7;
+}
+
+.fa-instagram {
+  color: white;
+}
