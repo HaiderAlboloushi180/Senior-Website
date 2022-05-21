@@ -13,6 +13,8 @@ window.onhashchange = () => {
     document.querySelector("#root").innerHTML = "Tips";
   } else if (window.location.hash === "#/contact") {
     document.querySelector("#root").innerHTML = "Contact";
+  } else if (window.location.hash === "#/sex") {
+    document.querySelector("#root").innerHTML = "🤨🤨🤨";
   } else {
     document.querySelector("#root").innerHTML =
       "Dude go back to the homepage...";
