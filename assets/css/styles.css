@@ -45,24 +45,79 @@ main {
   width: 200px;
   height: 200px;
   margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   background-color: rgba(0, 0, 0, 0.274);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+header #links-flex {
+  display: none;
+}
+
 /* TABLET VERSION */
 
 @media screen and (min-width: 600px) {
-  header a.icon {
+  header .fa-bars {
     display: none;
+  }
+
+  header #links-flex {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .title-timer h2 {
+    font-size: xx-large;
+  }
+
+  #timer {
+    font-size: x-large;
+  }
+
+  .description {
+    font-size: larger;
+    padding: 100px;
+  }
+
+  .buttons {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-evenly;
+  }
+
+  .buttons .button {
+    width: 250px;
+    height: 250px;
   }
 }
 
 /* DESKTOP VERSION */
 
 @media screen and (min-width: 768px) {
-  * {
-    background-color: red;
+  header #links-flex {
+    width: 40%;
+    margin-right: 50px;
+  }
+
+  .buttons .button {
+    width: 300px;
+    height: 300px;
+  }
+
+  .title-timer {
+    margin-top: 20%;
+  }
+
+  .title-timer h2 {
+    font-size: 5vw;
+  }
+
+  #timer {
+    font-size: x-large;
   }
 }

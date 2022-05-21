@@ -4,6 +4,9 @@ header {
   justify-content: space-between;
   padding: 20px;
   background-color: rgb(0, 74, 173);
+  /* position: fixed;
+  width: 100%;
+  top: 0; */
 }
 
 header img {

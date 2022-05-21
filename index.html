@@ -18,46 +18,37 @@
   </head>
   <body>
     <header>
-      <a href="">
+      <a href="#/">
         <img src="./assets/images/logo.png" alt="ACA23" width="100" />
       </a>
 
       <a href="javascript:void(0);" class="icon" onclick="burger()">
         <i class="fa fa-bars"></i>
       </a>
+
+      <div id="links-flex">
+        <a href="#/news">News</a>
+        <a href="#/events">Events</a>
+        <a href="#/tips">Tips</a>
+        <a href="#/contact">Contact Us</a>
+      </div>
     </header>
 
     <div id="links">
-      <a href="#news">News</a>
-      <a href="#events">Events</a>
-      <a href="#tips">Tips</a>
-      <a href="#contact">Contact Us</a>
+      <a href="#/news">News</a>
+      <a href="#/events">Events</a>
+      <a href="#/tips">Tips</a>
+      <a href="#/contact">Contact Us</a>
     </div>
 
-    <main>
-      <div class="title-timer">
-        <h2>ACA '23</h2>
-        <h3 id="timer"></h3>
-      </div>
+    <div id="root"></div>
 
-      <p class="description">
-        Description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Quaerat animi eos culpa id facilis officiis minus, vitae esse, assumenda
-        quibusdam rerum ab quod sapiente magnam dolor excepturi molestiae
-        laborum temporibus?
-      </p>
-
-      <div class="buttons">
-        <div class="button">Events</div>
-        <div class="button">News</div>
-        <div class="button">Tips</div>
-      </div>
-    </main>
     <footer>
-      <a href="" class="fa fa-instagram"></a>
-      <a href="#contact" class="contact-us-footer">Contact Us</a>
+      <a href="https://instagram.com/aca.seniors" class="fa fa-instagram"></a>
+      <a href="#/contact" class="contact-us-footer">Contact Us</a>
     </footer>
   </body>
+  <script type="module" src="./assets/js/index.js"></script>
   <script src="./assets/js/timer.js"></script>
   <script src="./assets/js/burger.js"></script>
 </html>
