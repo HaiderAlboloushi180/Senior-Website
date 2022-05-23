@@ -1,4 +1,5 @@
 import { Home } from "./Home.js";
+import { Contact } from "./Contact.js";
 
 document.querySelector("#root").innerHTML = Home();
 
@@ -12,7 +13,7 @@ window.onhashchange = () => {
   } else if (window.location.hash === "#/tips") {
     document.querySelector("#root").innerHTML = "Tips";
   } else if (window.location.hash === "#/contact") {
-    document.querySelector("#root").innerHTML = "Contact";
+    document.querySelector("#root").innerHTML = Contact();
   } else if (window.location.hash === "#/sex") {
     document.querySelector("#root").innerHTML = "🤨🤨🤨";
   } else {
@@ -20,3 +21,36 @@ window.onhashchange = () => {
       "Dude go back to the homepage...";
   }
 };
+
+const nameInput = document.querySelector("#name");
+const email = document.querySelector("#email");
+const message = document.querySelector("#message");
+const success = document.querySelector("#success");
+const errorNodes = document.querySelector(".error");
+
+function validateForm() {
+  clearMessages();
+
+  if (nameInput.value.length < 1) {
+    errorNodes[0].innerText = "Name cannot be blank";
+  }
+
+  if (!emailIsValid(email.value)) {
+    errorNodes[1].innerText = "Invalid email address";
+  }
+
+  if (message.value.length < 1) {
+    errorNodes[2].innerText = "Message cannot be blank";
+  }
+}
+
+function clearMessages() {
+  for (let i = 0; i < errorNodes.length; i++) {
+    errorNodes[i].innerText = "";
+  }
+}
+
+function emailIsValid(email) {
+  let pattern = /\S+@\S+\.\S+/;
+  return pattern.test(email);
+}
