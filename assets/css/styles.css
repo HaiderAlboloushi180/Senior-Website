@@ -87,6 +87,26 @@ header #links-flex {
   color: rgb(19, 255, 19);
 }
 
+.news-widget {
+  display: flex;
+  padding: 2vw;
+  margin: 10px;
+  align-items: center;
+  width: 90%;
+  background-color: rgb(138, 138, 255);
+  border-radius: 20px;
+}
+
+.news-text {
+  margin-left: 20px;
+  font-size: small;
+}
+
+.news-widget img {
+  border-radius: 20px;
+  width: 20vw;
+}
+
 /* TABLET VERSION */
 
 @media screen and (min-width: 600px) {
@@ -123,6 +143,26 @@ header #links-flex {
   .buttons .button {
     width: 250px;
     height: 250px;
+  }
+
+  .news-widget {
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+    align-items: center;
+    width: 90%;
+    background-color: rgb(138, 138, 255);
+    border-radius: 20px;
+  }
+
+  .news-text {
+    margin-left: 20px;
+    font-size: medium;
+  }
+
+  .news-widget img {
+    border-radius: 20px;
+    width: 100px;
   }
 }
 
