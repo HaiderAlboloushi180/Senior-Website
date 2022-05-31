@@ -1,8 +1,22 @@
+@font-face {
+  font-family: MontserratBody;
+  src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: OswaldHeadings;
+  src: url(../fonts/Oswald/Oswald-VariableFont_wght.ttf);
+}
+
 /* MOBILE VERSION */
 
 * {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: MontserratBody;
+}
+
+body {
+  background-color: rgb(242, 242, 255);
 }
 
 main {
@@ -13,23 +27,29 @@ main {
 }
 
 .title-timer {
-  margin-top: 30%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  margin-top: 10vw;
 }
 
 .title-timer h2 {
+  font-family: OswaldHeadings;
   margin-bottom: 10px;
 }
 
+.news-title {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
 #timer {
-  font-weight: normal;
+  font-family: OswaldHeadings;
 }
 
 .description {
-  margin-top: 20%;
+  margin-top: 10%;
   padding: 20px;
   text-align: center;
 }
@@ -52,6 +72,45 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 20px;
+}
+
+.event-page {
+  margin-bottom: 150%;
+}
+
+.main-event-page {
+  margin-bottom: 50%;
+}
+
+.event-img {
+  width: 80%;
+  height: 50vw;
+  object-fit: cover;
+}
+
+.eventh1 {
+  font-family: OswaldHeadings;
+  font-size: 50px;
+}
+
+.locationTime {
+  display: flex;
+}
+
+.locationTime p {
+  margin: 10px;
+}
+
+.mainEvent-title {
+  font-family: OswaldHeadings;
+}
+
+.bigEventButton {
+  width: 60vw;
+  margin-top: 5vw;
+  justify-self: center;
+  align-self: center;
 }
 
 header #links-flex {
@@ -87,6 +146,11 @@ header #links-flex {
   color: rgb(19, 255, 19);
 }
 
+.news-title {
+  font-family: OswaldHeadings;
+  font-size: xx-large;
+}
+
 .news-widget {
   display: flex;
   padding: 2vw;
@@ -95,6 +159,7 @@ header #links-flex {
   width: 90%;
   background-color: rgb(138, 138, 255);
   border-radius: 20px;
+  margin-bottom: 170%;
 }
 
 .news-text {
@@ -105,6 +170,47 @@ header #links-flex {
 .news-widget img {
   border-radius: 20px;
   width: 20vw;
+}
+
+.futureEvents {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20vw;
+}
+
+.futureEvents h2 {
+  align-self: center;
+}
+
+.futureButtons {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  margin-top: 40px;
+}
+
+.pastEvents {
+  margin-top: 0;
+}
+
+#senioritis,
+#collegeTips {
+  padding: 30px;
+}
+
+#senioritis h1,
+#collegeTips h1 {
+  font-size: 50px;
+  font-family: OswaldHeadings;
+}
+
+#senioritis h2 {
+  font-family: OswaldHeadings;
+}
+
+#collegeTips {
+  margin-bottom: 20px;
 }
 
 /* TABLET VERSION */
@@ -136,8 +242,7 @@ header #links-flex {
   .buttons {
     flex-direction: row;
     flex-wrap: wrap;
-    width: 90%;
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
 
   .buttons .button {
@@ -153,6 +258,7 @@ header #links-flex {
     width: 90%;
     background-color: rgb(138, 138, 255);
     border-radius: 20px;
+    margin-bottom: 80%;
   }
 
   .news-text {
@@ -163,6 +269,14 @@ header #links-flex {
   .news-widget img {
     border-radius: 20px;
     width: 100px;
+  }
+
+  .event-page {
+    margin-bottom: 70%;
+  }
+
+  .main-event-page {
+    margin-bottom: 18%;
   }
 }
 
@@ -180,7 +294,7 @@ header #links-flex {
   }
 
   .title-timer {
-    margin-top: 20%;
+    margin-top: 10%;
   }
 
   .title-timer h2 {
@@ -189,5 +303,30 @@ header #links-flex {
 
   #timer {
     font-size: x-large;
+  }
+
+  .bigEventButton {
+    height: 25vw;
+  }
+
+  .news-title {
+    margin-left: 4vw;
+  }
+
+  .news-widget {
+    margin-bottom: 66%;
+  }
+
+  .event-page {
+    margin-bottom: 50%;
+  }
+
+  .event-img {
+    width: 70%;
+    height: 20vw;
+  }
+
+  #collegeTips {
+    margin-bottom: 15vw;
   }
 }

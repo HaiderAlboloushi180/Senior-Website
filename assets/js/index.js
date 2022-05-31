@@ -1,6 +1,9 @@
 import { Home } from "./Home.js";
 import { Contact } from "./Contact.js";
 import { News } from "./News.js";
+import { Tips } from "./Tips.js";
+import { Event } from "./Event.js";
+import { MainEvent } from "./MainEvent.js";
 
 document.querySelector("#root").innerHTML = Home();
 
@@ -10,11 +13,13 @@ window.onhashchange = () => {
   } else if (window.location.hash === "#/news") {
     document.querySelector("#root").innerHTML = News();
   } else if (window.location.hash === "#/events") {
-    document.querySelector("#root").innerHTML = "Events";
+    document.querySelector("#root").innerHTML = Event();
   } else if (window.location.hash === "#/tips") {
-    document.querySelector("#root").innerHTML = "Tips";
-  } else if (window.location.hash === "#/contact") {
-    document.querySelector("#root").innerHTML = Contact();
+    document.querySelector("#root").innerHTML = Tips();
+    // } else if (window.location.hash === "#/contact") {
+    //   document.querySelector("#root").innerHTML = Contact();
+  } else if (window.location.hash === "#/main-event") {
+    document.querySelector("#root").innerHTML = MainEvent();
   } else if (window.location.hash === "#/sex") {
     document.querySelector("#root").innerHTML = "🤨🤨🤨";
   } else {

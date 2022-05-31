@@ -1,5 +1,7 @@
 export const Home = () => `
 <main>
+    <a href="#/main-event"><div class="button bigEventButton">Events</div></a>
+
     <div class="title-timer">
     <h2>ACA '23</h2>
     <h3 id="timer"></h3>
