@@ -1,15 +1,12 @@
 export const Tips = () => `
-<main>
+<main class="tip-main">
     <div id="senioritis" style="padding: 10px">
     <h1>Senioritis</h1>
     <br />
 
     <h2 style="font-weight: lighter">What is senioritis?</h2>
     <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
-        dolores non provident iure tempore praesentium dolorem magnam possimus
-        iste vitae ullam earum excepturi iusto laborum saepe a fugit illum
-        alias.
+        When students lose their enthusiasm to work hard and care about school, it is referred to as 'senioritis.' This frequently occurs when seniors believe they've accomplished everything they required and decide to relax and enjoy their senior year rather than worry about their studies.
     </p>
     <br />
     <br />
@@ -38,10 +35,27 @@ export const Tips = () => `
     <br />
     </div>
 
-    <div id="collegeTips" style="padding: 10px">
-    <h1>Timeline</h1>
-    <h3>You should start doing this right now</h3>
-    <img src="" alt="THIS SHOULD BE A TIMELINE" />
+    <div id="collegeTips" style="padding: 10px; align-self:flex-start;">
+    <h1>Your Summer Break To-Do List:</h1>
+    <br />
+    <h2>A list of stuff that can help you stay on track with senior related tasks</h2>
+    <br />
+    <ul class="summer-todo-list">
+        <li><h3>Examine your English language skills with the IELTS exam.</h3></li>
+        <br />
+        <li><h3>Begin filling out college applications. Common App, UC App, and so on.</h3></li>
+        <br />
+        <li><h3>Remember to finish your summer assessment(s) if you're an IB student.</h3></li>
+        <br />
+        <li><h3>Check to see if your BridgeU account is active and ready to use.</h3></li>
+        <br />
+        <li><h3>Create a list of teachers from whom you'd like a letter of recommendation.</h3></li>
+        <br />
+        <li><h3>Finalize your collage list and keep an eye out for when they begin accepting applications.</h3></li>
+        <br />
+        <li><h3>Consider taking part in any last-minute extra-cirricular activities to increase your chances of being accepted to your preferred university.</h3></li>
+        <br />
+    </ul>
     </div>
 </main>
 `;

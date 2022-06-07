@@ -34,6 +34,38 @@ main {
   margin-top: 10vw;
 }
 
+.timer-flex {
+  display: flex;
+  align-items: center;
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer-box {
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: rgb(0, 74, 173);
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .timer-box {
+    width: 60px;
+    height: 60px;
+    font-size: smaller;
+  }
+}
+
 .title-timer h2 {
   font-family: OswaldHeadings;
   margin-bottom: 10px;
@@ -48,8 +80,11 @@ main {
   font-family: OswaldHeadings;
 }
 
-.description {
+.descriptions {
   margin-top: 10%;
+}
+
+.description {
   padding: 20px;
   text-align: center;
 }
@@ -169,7 +204,7 @@ header #links-flex {
 
 .news-widget img {
   border-radius: 20px;
-  width: 20vw;
+  width: 25vw;
 }
 
 .futureEvents {
@@ -213,6 +248,20 @@ header #links-flex {
   margin-bottom: 20px;
 }
 
+@media screen and (max-width: 768px) {
+  #collegeTips h1 {
+    font-size: xx-large;
+  }
+
+  #collegeTips h2 {
+    font-size: large;
+  }
+
+  .summer-todo-list li {
+    font-size: smaller;
+  }
+}
+
 /* TABLET VERSION */
 
 @media screen and (min-width: 600px) {
@@ -236,7 +285,8 @@ header #links-flex {
 
   .description {
     font-size: larger;
-    padding: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 
   .buttons {
@@ -328,5 +378,9 @@ header #links-flex {
 
   #collegeTips {
     margin-bottom: 15vw;
+  }
+
+  .tip-main {
+    padding: 50px;
   }
 }
