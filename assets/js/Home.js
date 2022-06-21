@@ -13,7 +13,7 @@ export const Home = () => `
         </p>
         
         <p class=description>
-        The Senior Committee is a community organization aiming to organize senior-related events so that the students who have been together for around 14 years can make the most of their senior year. As members of the Senior Committee, we intend to make this a memorable year filled with activities and events, and we sincerely hope that you will join us during the next academic school year.
+        The Senior Committee is a community organization aiming to organize senior-related events so that the students who have been together for around 14 years can make the most of their senior year. As members of the Senior Committee, we intend to make this a memorable year filled with activities and events, and we sincerely hope that you will join us during the academic school year.
         </p>
         
         <p class=description>
