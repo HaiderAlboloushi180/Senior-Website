@@ -1,7 +1,7 @@
 export const MainEvent = () => `
 <main class="main-event-page">
     <img src="./assets/images/padel.jpg" alt="" class="event-img" style="margin-top: 6vw;" />
-    <h1 class="mainEvent-title">Event</h1>
+    <h1 class="mainEvent-title">Padel Up Men’s Fundraising Tournament</h1>
     <br />
     <p style="padding: 40px">
     <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing
