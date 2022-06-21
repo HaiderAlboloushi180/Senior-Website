@@ -110,6 +110,10 @@ main {
   border-radius: 20px;
 }
 
+#senioritis h2 {
+  font-size: xx-large;
+}
+
 .event-page {
   margin-bottom: 150%;
 }

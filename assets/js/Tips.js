@@ -4,7 +4,7 @@ export const Tips = () => `
     <h1>Senioritis</h1>
     <br />
 
-    <h2 style="font-weight: lighter">What is senioritis?</h2>
+    <h2>What is senioritis?</h2>
     <p>
         When students lose their enthusiasm to work hard and care about school, it is referred to as 'senioritis.' This frequently occurs when seniors believe they've accomplished everything they required and decide to relax and enjoy their senior year rather than worry about their studies.
     </p>
