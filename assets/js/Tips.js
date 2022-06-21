@@ -12,27 +12,31 @@ export const Tips = () => `
     <br />
     <br />
 
-    <h2 style="font-weight: lighter">Blah Blah Blah</h2>
+    <h2 style="font-weight: lighter">How to avoid senioritis?</h2>
     <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
-        dolores non provident iure tempore praesentium dolorem magnam possimus
-        iste vitae ullam earum excepturi iusto laborum saepe a fugit illum
-        alias.
+        <br/>
+        Make a list of goals to help you stay motivated. 
+        <br/>
+        <br/>
+        Reward yourself for your efforts.
+        <br/>
+        <br/>
+        Make a plan for yourself and stick to it. 
+        <br/>
+        <br/>
+        Surround yourself with people who will help you.
+        <br/>
+        <br/>
+        Take breaks once in a while.
+        <br/>
+        <br/>
+        Keep in mind what you're aiming towards.
     </p>
     <br />
     <br />
     <br />
 
-    <h2 style="font-weight: lighter">Blah Blah Blah 2</h2>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
-        dolores non provident iure tempore praesentium dolorem magnam possimus
-        iste vitae ullam earum excepturi iusto laborum saepe a fugit illum
-        alias.
-    </p>
-    <br />
-    <br />
-    <br />
+    
     </div>
 
     <div id="collegeTips" style="padding: 10px; align-self:flex-start;">
