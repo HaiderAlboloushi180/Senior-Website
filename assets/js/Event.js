@@ -1,4 +1,8 @@
 export const Event = () => `
+<h1 class="no-event">No current events</h1>
+`;
+
+const mainEvent = `
 <main>
   <h1 class="eventh1">Events</h1>
   <a href="#/main-event" class="event-page">
