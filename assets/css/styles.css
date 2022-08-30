@@ -58,6 +58,10 @@ main {
   color: white;
 }
 
+.event-button {
+  background-image: url(../images/events.png);
+}
+
 @media screen and (max-width: 600px) {
   .timer-box {
     width: 60px;

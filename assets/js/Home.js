@@ -1,7 +1,5 @@
 export const Home = () => `
 <main>
-    <a href="#/main-event"><div class="button bigEventButton">Events</div></a>
-
     <div class="title-timer">
     <h2>ACA '23</h2>
     <h3 id="timer"></h3>
@@ -26,8 +24,10 @@ export const Home = () => `
     </div>
 
     <div class="buttons">
-    <a href="#/events"><div class="button">Events</div></a>
-    <a href="#/news"><div class="button">News</div></a>
-    <a href="#/tips"><div class="button">Tips</div></a>
+    <a href="#/events"><div class="button event-button">Events</div></a>
+    <a href="#/news"><div class="button news-button">News</div></a>
+    <a href="#/tips"><div class="button tips-button">Tips</div></a>
     </div>
 </main>`;
+
+// EVENT BUTTON:     <a href="#/main-event"><div class="button bigEventButton">Events</div></a>
