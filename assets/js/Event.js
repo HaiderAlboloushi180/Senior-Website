@@ -1,5 +1,16 @@
 export const Event = () => `
-<h1 class="no-event">No current events</h1>
+<main>
+  <h1 class="no-event">No current events</h1>
+
+  <div class="pastEvents futureEvents">
+    <h2>Past Events</h2>
+    <div class="buttons futureButtons">
+      <a href="#/events">
+        <div class="button">Past Event 1</div>
+      </a>
+    </div>
+  </div>
+</main>
 `;
 
 const mainEvent = `

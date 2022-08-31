@@ -1,10 +1,10 @@
 export const Tips = () => `
 <main class="tip-main">
     <div id="senioritis" style="padding: 10px">
-    <h1>Senioritis</h1>
+    <h1 style="color:rgb(229, 243, 74)">Senioritis</h1>
     <br />
 
-    <h2>What is senioritis?</h2>
+    <h2 style="color:rgb(229, 243, 74)">What is senioritis?</h2>
     <p>
         When students lose their enthusiasm to work hard and care about school, it is referred to as 'senioritis.' This frequently occurs when seniors believe they've accomplished everything they required and decide to relax and enjoy their senior year rather than worry about their studies.
     </p>
@@ -12,7 +12,7 @@ export const Tips = () => `
     <br />
     <br />
 
-    <h2 style="font-weight: lighter">How to avoid senioritis?</h2>
+    <h2 style="font-weight: lighter; color:rgb(229, 243, 74);">How to avoid senioritis?</h2>
     <p>
         <br/>
         Make a list of goals to help you stay motivated. 
@@ -40,7 +40,7 @@ export const Tips = () => `
     </div>
 
     <div id="collegeTips" style="padding: 10px; align-self:flex-start;">
-    <h1>Your Very Important To-Do List:</h1>
+    <h1 style="color:rgb(229, 243, 74);">Your Very Important To-Do List:</h1>
     <br />
     <h2>A list of stuff that can help you stay on track with senior related tasks</h2>
     <br />
