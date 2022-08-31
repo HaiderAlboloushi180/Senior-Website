@@ -60,6 +60,17 @@ main {
 
 .event-button {
   background-image: url(../images/events.png);
+  background-size: 100%;
+}
+
+.news-button {
+  background-image: url(../images/news.png);
+  background-size: 100%;
+}
+
+.tips-button {
+  background-image: url(../images/tips.png);
+  background-size: 100%;
 }
 
 .no-event {
@@ -112,11 +123,17 @@ main {
   margin-bottom: 20px;
   margin-left: 10px;
   margin-right: 10px;
-  background-color: rgba(0, 0, 0, 0.274);
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 20px;
+  color: rgb(0, 46, 105);
+  opacity: 0.8;
+  font-size: xx-large;
+}
+
+.buttons a {
+  text-decoration: none;
 }
 
 #senioritis h2 {

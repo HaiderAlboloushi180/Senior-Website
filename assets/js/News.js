@@ -4,7 +4,7 @@ export const News = () => `
     <div class="news-widget"">
       <img src="https://i.ibb.co/yRyrWZJ/logo.png" alt="A23"  />
       <div class="news-text">
-        <p>June 22</p>
+        <p>Sept 1</p>
         <p>Senior website officially released! 🥳</p>
       </div>
     </div>

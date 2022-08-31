@@ -40,7 +40,7 @@ export const Tips = () => `
     </div>
 
     <div id="collegeTips" style="padding: 10px; align-self:flex-start;">
-    <h1>Your Summer Break To-Do List:</h1>
+    <h1>Your Very Important To-Do List:</h1>
     <br />
     <h2>A list of stuff that can help you stay on track with senior related tasks</h2>
     <br />
@@ -48,8 +48,6 @@ export const Tips = () => `
         <li><h3>Examine your English language skills with the IELTS exam.</h3></li>
         <br />
         <li><h3>Begin filling out college applications. Common App, UC App, and so on.</h3></li>
-        <br />
-        <li><h3>Remember to finish your summer assessment(s) if you're an IB student.</h3></li>
         <br />
         <li><h3>Check to see if your BridgeU account is active and ready to use.</h3></li>
         <br />
