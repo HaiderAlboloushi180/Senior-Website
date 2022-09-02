@@ -126,8 +126,8 @@ main {
 }
 
 .event-images img {
-  width: 100px;
-  height: fit-content;
+  width: 125px;
+  height: 200px;
   margin: 20px;
 }
 
