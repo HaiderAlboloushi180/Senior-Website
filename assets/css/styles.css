@@ -34,6 +34,12 @@ main {
   font-size: larger;
 }
 
+.event-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 #collegeTips h2 {
   font-family: OswaldHeadings;
   color: rgb(0, 46, 105);
@@ -58,6 +64,12 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.sub-vids {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
 }
 
 .timer-box {
@@ -113,6 +125,12 @@ main {
   margin-top: 10%;
 }
 
+.event-images img {
+  width: 100px;
+  height: fit-content;
+  margin: 20px;
+}
+
 .description {
   padding: 20px;
   text-align: center;
@@ -157,6 +175,7 @@ main {
   width: 80%;
   height: 50vw;
   object-fit: cover;
+  border-radius: 20px;
 }
 
 .no-event {
@@ -302,8 +321,27 @@ header #links-flex {
     font-size: large;
   }
 
+  .event-videos video {
+    width: 320px;
+    height: 240px;
+  }
+
+  .sub-vids video {
+    width: 150px;
+    height: fit-content;
+  }
+
   .summer-todo-list li {
     font-size: smaller;
+  }
+
+  .mainEvent-title {
+    font-size: 20px;
+  }
+
+  .moment-h2 {
+    font-size: smaller;
+    margin-left: 70px;
   }
 }
 
@@ -312,6 +350,16 @@ header #links-flex {
 @media screen and (min-width: 600px) {
   header .fa-bars {
     display: none;
+  }
+
+  .event-videos video {
+    width: 600px;
+    height: fit-content;
+  }
+
+  .sub-vids video {
+    width: 275px;
+    height: fit-content;
   }
 
   header #links-flex {
@@ -326,6 +374,12 @@ header #links-flex {
 
   #timer {
     font-size: x-large;
+  }
+
+  .event-images img {
+    width: fit-content;
+    height: 300px;
+    margin: 30px;
   }
 
   .description {
@@ -367,7 +421,7 @@ header #links-flex {
   }
 
   .main-event-page {
-    margin-bottom: 18%;
+    margin-bottom: 30%;
   }
 }
 
@@ -411,6 +465,7 @@ header #links-flex {
   .event-img {
     width: 70%;
     height: 20vw;
+    border-radius: 20px;
   }
 
   #collegeTips {

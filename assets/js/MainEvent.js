@@ -1,17 +1,28 @@
-export const MainEvent = () => `
+export const PadelEvent = () => `
 <main class="main-event-page">
     <img src="./assets/images/padel.jpg" alt="" class="event-img" style="margin-top: 6vw;" />
     <h1 class="mainEvent-title">Padel Up Men’s Fundraising Tournament</h1>
     <br />
-    <p style="padding: 40px">
-    <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing
-    elit. Blanditiis sapiente labore nemo at pariatur maxime, reiciendis
-    sequi a beatae, perspiciatis ratione adipisci possimus omnis numquam
-    sit. Placeat sapiente adipisci velit!
+    <p style="padding: 40px">A padel tournament that was held in Court 8, consisted of 32 teams, 2 players on each team, each team would play against the other until they reached the final, with the winners being Team Al Banwan, followed by the runner-ups, team Saleh Bo Hadi.
     </p>
-    <div class="locationTime">
-    <p><b>Location: </b>location</p>
-    <p><b>Time: </b>time</p>
+    <div class="event-videos">
+        <h2 class="moment-h2">Moment of the Tournament:</h2>
+        <video controls>
+            <source src="./assets/vids/moment.mp4" type="video/mp4">
+        </video>
+        <br/>
+        <div class="sub-vids">
+            <video height="200" controls>
+             <source src="./assets/vids/padelvid1.mp4" type="video/mp4">
+            </video>
+            <video height="200" controls>
+             <source src="./assets/vids/padelvid2.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <div class="event-images">
+        <img src="./assets/images/padelImg1.jpeg"/>
+        <img src="./assets/images/PadelImg2.jpeg"/>
     </div>
 </main>
 `;

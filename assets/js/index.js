@@ -3,7 +3,7 @@ import { Contact } from "./Contact.js";
 import { News } from "./News.js";
 import { Tips } from "./Tips.js";
 import { Event } from "./Event.js";
-import { MainEvent } from "./MainEvent.js";
+import { PadelEvent } from "./MainEvent.js";
 
 document.querySelector("#root").innerHTML = Home();
 
@@ -18,8 +18,8 @@ window.onhashchange = () => {
     document.querySelector("#root").innerHTML = Tips();
     // } else if (window.location.hash === "#/contact") {
     //   document.querySelector("#root").innerHTML = Contact();
-  } else if (window.location.hash === "#/main-event") {
-    document.querySelector("#root").innerHTML = MainEvent();
+  } else if (window.location.hash === "#/padel-event") {
+    document.querySelector("#root").innerHTML = PadelEvent();
   } else if (window.location.hash === "#/sex") {
     document.querySelector("#root").innerHTML = "🤨🤨🤨";
   } else {

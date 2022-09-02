@@ -4,8 +4,8 @@ export const News = () => `
     <div class="news-widget"">
       <img src="https://i.ibb.co/yRyrWZJ/logo.png" alt="A23"  />
       <div class="news-text">
-        <p>Sept 1</p>
-        <p>Senior website officially released! 🥳</p>
+        <p>Sept 4</p>
+        <p>Senior website officially released! Good luck on the first day of school!</p>
       </div>
     </div>
 </main>`;

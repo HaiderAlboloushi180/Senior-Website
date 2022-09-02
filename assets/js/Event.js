@@ -5,8 +5,8 @@ export const Event = () => `
   <div class="pastEvents futureEvents">
     <h2>Past Events</h2>
     <div class="buttons futureButtons">
-      <a href="#/events">
-        <div class="button">Past Event 1</div>
+      <a href="#/padel-event">
+        <div class="button" style="font-size:smaller;">Padel Up Men’s Fundraising Tournament</div>
       </a>
     </div>
   </div>
