@@ -20,9 +20,5 @@ export const PadelEvent = () => `
             </video>
         </div>
     </div>
-    <div class="event-images">
-        <img src="./assets/images/padelImg1.jpeg"/>
-        <img src="./assets/images/PadelImg2.jpeg"/>
-    </div>
 </main>
 `;
