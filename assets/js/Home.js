@@ -1,7 +1,7 @@
 export const Home = () => `
 <main>
     <div class="title-timer">
-    <h2 style="color:rgb(229, 243, 74)">ACA '23</h2>
+    <h2 style="color:rgb(222, 222, 62)">ACA '23</h2>
     <h3 id="timer"></h3>
     </div>
 
