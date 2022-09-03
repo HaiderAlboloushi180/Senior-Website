@@ -6,7 +6,7 @@ export const Event = () => `
     <h2>Past Events</h2>
     <div class="buttons futureButtons">
       <a href="#/padel-event">
-        <div class="button" style="font-size:smaller;">Padel Up Men’s Fundraising Tournament</div>
+        <div class="button padelbutton" style="font-size:smaller;text-align:center;">Padel Up Men’s Fundraising Tournament</div>
       </a>
     </div>
   </div>

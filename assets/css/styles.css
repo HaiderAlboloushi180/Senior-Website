@@ -125,6 +125,11 @@ main {
   margin-top: 10%;
 }
 
+.padelbutton {
+  background-image: url(../images/padel.jpg);
+  background-size: cover;
+}
+
 .event-images img {
   width: 125px;
   height: 100px;
